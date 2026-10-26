@@ -92,6 +92,8 @@ information, such as an acronym, file extension or example.
 | Unicode / XLIFF / XML / OASIS | Unicode / XLIFF / XML / OASIS | 規格名・団体名は原綴り。 |
 | Organization for the Advancement of Structured Information Standards | Organization for the Advancement of Structured Information Standards | OASISの正式名称は原綴り。 |
 | MeCab / Excel | MeCab / Excel | ライブラリ名・製品名は原綴り。MeCabの同梱・除外に関する原文の説明は4D v19 R5当時のもの。MeCabは20 R10、内蔵PHPインタープリターは20 R3で削除され、4D 21には含まれない。[公式リリースノート](https://developer.4d.com/docs/21/Notes/updates)を参照。本文では過去形と訳注で区別し、図12には編集者提供の現行画面を使用する。 |
+| built-in / external PHP interpreter | 内蔵PHPインタープリター / 外部PHPインタープリター | 内蔵インタープリターの削除とPHPコマンドの廃止予定を区別する。4D 21の`PHP Execute`は削除ではなく廃止予定。新規開発ではシステムワーカーを使った外部PHPの実行が推奨される。[公式移行ガイド](https://blog.4d.com/ja/deprecation-of-php-commands-removal-of-4d-built-in-php-interpreter/)。 |
+| ICU | ICU | 文字列処理ライブラリ。4D 21での更新に伴い、文字列型・テキスト型・オブジェクト型のインデックスが再構築される。編集者承認の2026年10月追補として、v20とv21の違いや移行時の注意点を訳注に記載する。原文の英語・コードは変更しない。 |
 | English / French / Spanish / German | 英語 / フランス語 / スペイン語 / ドイツ語 | 言語コードとサンプル値は原文どおり。 |
 | Japanese / Chinese / Arabic | 日本語 / 中国語 / アラビア語 | サンプルデータは置き換えない。 |
 | Italian / Portuguese | イタリア語 / ポルトガル語 | |
