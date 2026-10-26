@@ -1,0 +1,54 @@
+All labels are automatically localized
+according to selected language
+Current language :
+Spanish
+uno
+Lunes
+Enero
+Julio
+Current URL :
+dos
+Marte
+Febrero.
+Agosto
+https:/Jes.4d.com/,
+tres
+Miércoles
+Marzo
+Septiembre
+cuatro
+Jueves
+Abril
+Octubre
+cinco
+Viernes
+Mayo
+Noviembre
+seis
+Sabado
+Junio
+Diciembre
+Import Arabic text
+siete
+Domingo
+ocho
+Cancelar
+nueve
+diez
+January in used language
+Developer center
+Store
+Espafia @
+Cuenta 4D Q
+PRODUCTOS
+SERVICIOS
+USTED ES
+NUESTROS CLIENTES
+SOPORTE
+EMPRESA
+Pruebe 4D gratis
+Formacion bajo
+demanda
+Todas las sesiones de formacién estan a
+solo un clic de distan
+Ultimas noticias

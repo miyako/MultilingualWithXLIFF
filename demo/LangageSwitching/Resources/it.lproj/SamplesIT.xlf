@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Samples" source-language="en" target-language="it">
+    <body>
+      <trans-unit id="action_1" resname="action_1">
+        <source>Accept</source>
+        <target>Accetta</target>
+      </trans-unit>
+      <trans-unit id="action_2" resname="action_2">
+        <source>Cancel</source>
+        <target>Annulla</target>
+      </trans-unit>
+      <trans-unit id="action_3" resname="action_3">
+        <source>Print</source>
+        <target>Stampa</target>
+      </trans-unit>
+      <trans-unit id="count_01" resname="count_01">
+        <source>one</source>
+        <target>uno</target>
+      </trans-unit>
+      <trans-unit id="count_02" resname="count_02">
+        <source>two</source>
+        <target>due</target>
+      </trans-unit>
+      <trans-unit id="count_03" resname="count_03">
+        <source>three</source>
+        <target>tre</target>
+      </trans-unit>
+      <trans-unit id="count_04" resname="count_04">
+        <source>four</source>
+        <target>quattro</target>
+      </trans-unit>
+      <trans-unit id="count_05" resname="count_05">
+        <source>five</source>
+        <target>cinque</target>
+      </trans-unit>
+      <trans-unit id="count_06" resname="count_06">
+        <source>six</source>
+        <target>sei</target>
+      </trans-unit>
+      <trans-unit id="count_07" resname="count_07">
+        <source>seven</source>
+        <target>sette</target>
+      </trans-unit>
+      <trans-unit id="count_08" resname="count_08">
+        <source>eight</source>
+        <target>otto</target>
+      </trans-unit>
+      <trans-unit id="count_09" resname="count_09">
+        <source>nine</source>
+        <target>nove</target>
+      </trans-unit>
+      <trans-unit id="count_10" resname="count_10">
+        <source>ten</source>
+        <target>diez</target>
+      </trans-unit>
+      <trans-unit id="day_1" resname="day_1">
+        <source>Monday</source>
+        <target>Lunedi</target>
+      </trans-unit>
+      <trans-unit id="day_2" resname="day_2">
+        <source>Tuesday</source>
+        <target>Martedì</target>
+      </trans-unit>
+      <trans-unit id="day_3" resname="day_3">
+        <source>Wednesday</source>
+        <target>Mercoledì</target>
+      </trans-unit>
+      <trans-unit id="day_4" resname="day_4">
+        <source>Thursday</source>
+        <target>Giovedi</target>
+      </trans-unit>
+      <trans-unit id="day_5" resname="day_5">
+        <source>Friday</source>
+        <target>Venerdì</target>
+      </trans-unit>
+      <trans-unit id="day_6" resname="day_6">
+        <source>Saturday</source>
+        <target>Sabato</target>
+      </trans-unit>
+      <trans-unit id="day_7" resname="day_7">
+        <source>Sunday</source>
+        <target>Domenica</target>
+      </trans-unit>
+      <trans-unit id="info_1" resname="info_1">
+        <source>English</source>
+        <target>Italian</target>
+      </trans-unit>
+      <trans-unit id="month_1" resname="month_1">
+        <source>January</source>
+        <target>Gennaio</target>
+      </trans-unit>
+      <trans-unit id="month_10" resname="month_10">
+        <source>October</source>
+        <target>Ottobre</target>
+      </trans-unit>
+      <trans-unit id="month_11" resname="month_11">
+        <source>November</source>
+        <target>Novembre</target>
+      </trans-unit>
+      <trans-unit id="month_12" resname="month_12">
+        <source>December</source>
+        <target>Dicembre</target>
+      </trans-unit>
+      <trans-unit id="month_2" resname="month_2">
+        <source>February</source>
+        <target>Febbraio</target>
+      </trans-unit>
+      <trans-unit id="month_3" resname="month_3">
+        <source>March</source>
+        <target>Marzo</target>
+      </trans-unit>
+      <trans-unit id="month_4" resname="month_4">
+        <source>April</source>
+        <target>Aprile</target>
+      </trans-unit>
+      <trans-unit id="month_5" resname="month_5">
+        <source>May</source>
+        <target>Maggio</target>
+      </trans-unit>
+      <trans-unit id="month_6" resname="month_6">
+        <source>June</source>
+        <target>Giugno</target>
+      </trans-unit>
+      <trans-unit id="month_7" resname="month_7">
+        <source>July</source>
+        <target>Luglio</target>
+      </trans-unit>
+      <trans-unit id="month_8" resname="month_8">
+        <source>August</source>
+        <target>Settembre</target>
+      </trans-unit>
+      <trans-unit id="month_9" resname="month_9">
+        <source>September</source>
+        <target>Settembre</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="LangageSwitching" source-language="en" target-language="es">
+    <body>
+      <trans-unit id="AlertArabicSave" resname="AlertArabicSave">
+        <source>The Arabic sample could not be saved.</source>
+        <target state="needs-translation">The Arabic sample could not be saved.</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="...switch language dynamically?" resname="...switch language dynamically?">
+        <source>...switch language dynamically?</source>
+        <target state="needs-translation">...switch language dynamically?</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="AlertArabicMissing" resname="AlertArabicMissing">
+        <source>The Arabic sample is missing from Resources.</source>
+        <target state="needs-translation">The Arabic sample is missing from Resources.</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="AlertArabicRead" resname="AlertArabicRead">
+        <source>The Arabic sample could not be read.</source>
+        <target state="needs-translation">The Arabic sample could not be read.</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="AlertLanguageCode" resname="AlertLanguageCode">
+        <source>Enter a language code: en, es, fr, de, it, or ja.</source>
+        <target state="needs-translation">Enter a language code: en, es, fr, de, it, or ja.</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="AlertLanguageUnavailable" resname="AlertLanguageUnavailable">
+        <source>The requested language is not available in this demo.</source>
+        <target state="needs-translation">The requested language is not available in this demo.</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="All labels are automatically localized according to selected language" resname="All labels are automatically localized according to selected language">
+        <source>All labels are automatically localized according to selected language</source>
+        <target state="needs-translation">All labels are automatically localized according to selected language</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="Change Language" resname="Change Language">
+        <source>Change Language</source>
+        <target state="needs-translation">Change Language</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="Current language : " resname="Current language : ">
+        <source>Current language : </source>
+        <target state="needs-translation">Current language : </target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="Demo" resname="Demo">
+        <source>Demo</source>
+        <target state="needs-translation">Demo</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="Demo_WindowTitle" resname="Demo_WindowTitle">
+        <source>XLIFF language switching</source>
+        <target state="needs-translation">XLIFF language switching</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="How Do I..." resname="How Do I...">
+        <source>How Do I...</source>
+        <target state="needs-translation">How Do I...</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="LanguageDE" resname="LanguageDE">
+        <source>German (de)</source>
+        <target state="needs-translation">German (de)</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="LanguageEN" resname="LanguageEN">
+        <source>English (en-US)</source>
+        <target state="needs-translation">English (en-US)</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="LanguageES" resname="LanguageES">
+        <source>Spanish (es)</source>
+        <target state="needs-translation">Spanish (es)</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="LanguageFR" resname="LanguageFR">
+        <source>French (fr)</source>
+        <target state="needs-translation">French (fr)</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="LanguageIT" resname="LanguageIT">
+        <source>Italian (it)</source>
+        <target state="needs-translation">Italian (it)</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="LanguageJA" resname="LanguageJA">
+        <source>Japanese (ja)</source>
+        <target state="needs-translation">Japanese (ja)</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="Localized_ArabicPlaceholder" resname="Localized_ArabicPlaceholder">
+        <source>Imported Arabic text</source>
+        <target state="needs-translation">Imported Arabic text</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="Localized_CurrentURL" resname="Localized_CurrentURL">
+        <source>Current URL:</source>
+        <target state="needs-translation">Current URL:</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="Localized_ImportArabic" resname="Localized_ImportArabic">
+        <source>Import Arabic text</source>
+        <target state="needs-translation">Import Arabic text</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="Localized_January" resname="Localized_January">
+        <source>January in this language</source>
+        <target state="needs-translation">January in this language</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="Localized_WindowTitle" resname="Localized_WindowTitle">
+        <source>Language: {language}</source>
+        <target state="needs-translation">Language: {language}</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="Open all in processes" resname="Open all in processes">
+        <source>Open all in processes</source>
+        <target state="needs-translation">Open all in processes</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="Open single dialog" resname="Open single dialog">
+        <source>Open single dialog</source>
+        <target state="needs-translation">Open single dialog</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="Reveal lang files" resname="Reveal lang files">
+        <source>Reveal lang files</source>
+        <target state="needs-translation">Reveal lang files</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="SET DATABASE LOCALIZATION(Language{;*})" resname="SET DATABASE LOCALIZATION(Language{;*})">
+        <source>SET DATABASE LOCALIZATION(Language{;*})</source>
+        <target state="needs-translation">SET DATABASE LOCALIZATION(Language{;*})</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="Select language" resname="Select language">
+        <source>Select language</source>
+        <target state="needs-translation">Select language</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="Selected langage is applied on newly opened dialogs" resname="Selected langage is applied on newly opened dialogs">
+        <source>The selected language is applied to newly opened dialogs.</source>
+        <target state="needs-translation">The selected language is applied to newly opened dialogs.</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="Table1_WindowTitle" resname="Table1_WindowTitle">
+        <source>Imported data</source>
+        <target state="needs-translation">Imported data</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="text::set database localization" resname="text::set database localization">
+        <source>Change the application's language at runtime using a language code whose .lproj folder exists in Resources.&#13;&#13;Loaded forms keep their labels. The new language is used by forms and strings displayed after the command.</source>
+        <target state="needs-translation">Change the application's language at runtime using a language code whose .lproj folder exists in Resources.&#13;&#13;Loaded forms keep their labels. The new language is used by forms and strings displayed after the command.</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="text::set database localization detail" resname="text::set database localization detail">
+        <source>SET DATABASE LOCALIZATION(Language)&#13; -&gt; Database and components&#13;&#13;SET DATABASE LOCALIZATION(Language;*)&#13; -&gt; Calling database only&#13;</source>
+        <target state="needs-translation">SET DATABASE LOCALIZATION(Language)&#13; -&gt; Database and components&#13;&#13;SET DATABASE LOCALIZATION(Language;*)&#13; -&gt; Calling database only&#13;</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

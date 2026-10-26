@@ -1,0 +1,33 @@
+<group
+resnam
+DayNames">
+<trans-unit id="1"
+<source>Monday<
+source>
+<target>Lunes</target>
+</trans-unit>
+<trans-unit id="2" resname="day 2">
+<source>Tuesday</source>
+<target>Marte</target>
+</trans-unit>
+<trans-unit id="3" resname="day_ 3">
+<source>Wednesday</source>
+<target>Miércoles</target>
+</trans-unit>
+<trans-unit id="4" resname="day_ 4">
+<source>Thursday</source>
+<target>Jueves</target>
+</trans-unit>
+<trans-unit id="5"
+<source>Friday</source>
+<target>Viernes</target>
+</trans-unit>
+<trans-unit id="6" resname="day_ 6">
+<source>Saturday</source>
+<target>Sabado</target>
+</trans-unit>
+<trans-unit id="7" resname="day_7">
+<source>Sunday</source>
+<target>Domingo</target>
+</trans-unit>
+</group>

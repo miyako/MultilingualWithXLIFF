@@ -1,0 +1,5 @@
+<group resname="MonthNames">
+<trans-unit id="month_1" resname="month_1">
+<source>January</source>
+<target>Enero </target>
+</trans-unit>

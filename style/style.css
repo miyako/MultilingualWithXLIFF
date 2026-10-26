@@ -107,6 +107,7 @@ td:last-child, th:last-child { text-align: right; }
 /* Notes and quotes (quote.italic) and translator's notes */
 blockquote {
   margin: 0.5em 0 0.9em;
+  break-inside: avoid;
   padding: 0.4em 0.9em;
   border-left: 3px solid var(--accent, #2f5496);
   background: #f5f7fb;

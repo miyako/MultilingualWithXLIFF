@@ -85,6 +85,9 @@ def main():
         cmd += [f"--data={tmp / 'Data' / 'data.4DD'}"] if args.data or args.new_data else ["--dataless"]
         cmd += ["--create-data"] if args.new_data else []
         run = subprocess.run(cmd, capture_output=True, text=True, timeout=600)
+        if run.returncode:
+            print(run.stdout[-2000:], run.stderr[-2000:], sep="\n", file=sys.stderr)
+            sys.exit(run.returncode)
         out = tmp / "agent-test.txt"
         if not out.exists():
             print(run.stdout[-2000:], run.stderr[-2000:], sep="\n", file=sys.stderr)
