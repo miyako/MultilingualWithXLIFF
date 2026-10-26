@@ -41,6 +41,7 @@ Full-width `（）` and `：` in prose. First occurrence of a technical term: �
 | localization | ローカライズ | 初出は「ローカライズ（localization）」。 |
 | user interface | ユーザーインターフェース | 初出で英語を併記。 |
 | regional settings | 地域設定 | システムやアプリケーションの地域設定。 |
+| Use regional system settings | リージョンシステム設定を使う | 4D 20.8の日本語リソース`Internal Components/preferences.4dbase/Resources/ja.lproj/MotorJA.xlf`、グループ`Methods`、id `168`、resname `MethodsLanguageOption`で照合。元の図のビルド・フォントは未確認。 |
 | language certification matrix | 言語認証マトリクス | 認証済み言語の対応表。編集者確認対象。 |
 | compatibility matrix | 互換性マトリクス | |
 | resource / resource management | リソース / リソース管理 | `Resources`というフォルダー名は翻訳しない。 |
