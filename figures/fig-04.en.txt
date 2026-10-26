@@ -1,0 +1,68 @@
+encoarn
+Translation file for 4D products.
+Copyright (C)2006 4D SA.
+This file is distributed under the same license as the 4D product package
+xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+version="1.0">
+<file build-nw
+9.0" datatyp
+'x-STRE"
+dat
+2006-04-2071
+3:412" original="4th Dimension" product-name="4th Dimension" product-version*
+v20" scurce-language
+Languag
+<body>
+<group i:
+"1" resnamé
+‘SQLaliases">
+<erans.
+unit ii
+2" resname="How Do I...">
+<source>How Do I
+</source>
+</target>
+</trans-unit>
+<trans-unit ii
+3" resname="
+switch language dynamically?">
+<source>.
+switch language dynamically?</source>
+</trans-unit>
+<trans-unit ii
+4" resname="Demo">
+<source>Demo</source>
+<target>FE</target>
+</trans-unit>
+<trans-unit id
+5" resname="Open single dialog">
+<source>Open single dialog</source>
+<target UtIOR S</target>
+</trans-unit>
+6" resname="Open all in processes">
+<trans-unit
+<source>Open all in processes</source>
+</trans-unit>
+<trans-unit id
+"7" resname="Reveal lang files">
+<source>Reveal lang files</source>
+<target> 3
+</trans-unit>
+<trans-unit ii
+8" resname="Selected langage is applied on newly opened dialogs">
+<source>Selected langage is applied on newly opened dialogs</source>
+RRENES. </target>
+</trans-unit>
+<trans-unit ii
+9" resname="Change Language">
+<source>Change Language</source>
+<target> 3 BA</target>
+</trans-unit>
+"SET DATABASE LOCALIZATION (Language{ :*})">
+<trans-unit ii
+<source>SET DATABASE LOCALIZATION (Language{ ;*})</source>
+0”
+<target>SET DATABASE LOCALIZATION
+</trans-unit>
+<trans-unit id="11" resname="text::set database localization detail">
+‘<source>SET DATABASE LOCALIZATION (Language)

@@ -1,0 +1,33 @@
+4D Preferences
+General
+Structure
+Forms
+Methods Shortcuts
+Themes
+Options
+4D Programming Language
+Use regional system settings
+Indentation
+points
+Show Line Numbers
+Show Lists
+Show clipboards
+Always show block lines
+Hide collapse/expand icons
+Insert () and closing })]"
+Highlight the logical blocks
+Matching [](){}:
+Rectangle
+Highlighting variables and fields:
+Debug:
+Highlight the line running
+Suggestions
+Automatic opening of window for: Constants
+Variables (local or interprocess) and object attributes
+Tables
+Prototypes
+Validation of a suggestion:
+Tab and delimiters
+Tab only
+Reset to factory settings
+Cancel

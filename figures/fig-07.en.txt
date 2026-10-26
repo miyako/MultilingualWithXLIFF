@@ -1,0 +1,79 @@
+
+0h
+All labels are automatically localized
+Picture not
+according to selected language
+Property List
+<> Toxttt
+All Themes
+Definition
+Action
+Geometry
+Value
+Look
+Specific
+100
+one
+two
+Tuesday
+Type
+Text
+150
+three
+Wednesday
+Object Name
+Toxttt
+four
+Thursday
+[Title
+five
+Friday
+200
+‘CSS Class
+default
+six
+Saturday
+seven
+Sunday
+Lett
+163
+250
+eight
+Top
+m2
+Cancel
+nine
+Right
+278
+ten
+300
+Bottom
+v8
+width
+6
+Jan’
+Height
+16
+360
+Corner Radius
+Horizontal Sizing
+None
+‘400
+Vertical sizing
+‘None
+‘450
+Visibility
+Visible
+Fill Color
+‘None
+Border Line Style
+None
+550
+Font
+Lucida Grande
+(Gs) Font size
+13
+Bold
+‘600
+Italic
+“All Themes

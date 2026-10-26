@@ -1,0 +1,56 @@
+All labels are automatically localized
+according to selected language
+Current language :
+English
+one
+Monday
+January
+July
+Current URL:
+two
+Tuesday
+February
+August
+https://us.4d.com/,
+three
+Wednesday
+March
+September
+four
+Thursday
+April
+October
+five
+Friday
+May
+November
+Saturday
+June
+December
+six
+Import Arabic text
+Sunday
+seven
+eight
+Cancel
+nine
+ten
+January in used language
+Developer center
+Store
+United States @
+4D Account Q
+PRODUCTS
+SERVICES
+YOU ARE
+OUR CUSTOMERS SUPPORT
+COMPANY
+Try 4D for free
+Quickly build
+Business Apps
+4D is an incredible development platform that lets you
+focus on your data model and your business rules.
+Develop and deploy native applications on all platforms
+in record time.
+rn more
+Latest news

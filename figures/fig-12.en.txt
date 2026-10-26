@@ -1,0 +1,30 @@
+Build Application
+Application Name:
+LangageSwitching
+“LangageSwitching Build” in volume *
+Destination Folder
+Compiled structure Application Client/Server Plugins & components Licenses & Certificate
+Active Plugins and components
+4D
+Type
+4D NetKit
+‘Component
+4D Progress
+‘Component
+4D SVG
+‘Component
+4D ViewPro
+‘Component
+4D Widgets
+‘Component
+4D WritePro Interface
+‘Component
+cer
+Module
+SpellChecker
+Module
+4D Updater
+Module
+Save settings
+Cancel
+Build

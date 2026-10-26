@@ -1,0 +1,52 @@
+All labels are automatically localized
+according to selected language
+Current language
+Spanish
+Julio
+uno
+Lunes
+Enero
+Current URL
+dos
+Marte
+Febrero
+Agosto
+https://es.4d.com/,
+tres
+Miércoles
+Marzo
+Septiembre
+cuatro
+Jueves
+Abril
+Octubre
+cinco
+Viernes
+Mayo
+Noviembre
+Sabado
+Junio
+Diciembre
+seis
+Import Arabic text
+siete
+Domingo
+ocho
+Cancelar
+Aceptar
+nueve
+diez
+January in used language
+O Blog
+@Develop
+Enero
+Cuenta 4D 8
+PRODUCTOS
+SERVIC
+Pruebe 4D gratis
+Reviva la
+De un vistazo a nuestro pata
+ver los mejores momentos.
+SUMMIT
+mo 23
+Ultimas noticias
