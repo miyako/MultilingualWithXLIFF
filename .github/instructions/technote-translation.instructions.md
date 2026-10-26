@@ -115,7 +115,8 @@ monospace font for code instead of colours, `code.colors` can stay empty.
   - Full-width `（）` and `：` in prose.
   - Use the official 4D Japanese documentation terms (e.g. Webエリア, エンティティセレクション, データストア, 引数,
     メソッド, フォーム, コレクション) and record them in `glossary.md` (`| English | 日本語 | Notes |`).
-  - First occurrence of a technical term: 日本語（English）.
+  - 外来語や定着した技術用語に、原語の英語を括弧で機械的に併記しない。初出でも同様。
+    略語、拡張子、具体例など、理解に必要な情報がある場合だけ括弧で補足する。
 - Other languages: agree on the style with the user, and set the fonts (`figure_fonts`) and the font stack in
   `style/style.css`.
 - Inline code (`` `name` ``) stays as is. Identifiers in prose that refer to code stay in their original form.
@@ -162,6 +163,11 @@ Typical fixes:
 Always check with `make review` (original above, localised below).
 
 ### Screenshots
+
+Editor-approved scope for this note: the editor will supply Japanese captures for figures **02, 03, 05 and 07**.
+Keep every other image original, including the English/Spanish examples and Windows dialogs. Save incoming
+captures separately as `figures/fig-02-ja.png`, `figures/fig-03-ja.png`, `figures/fig-05-ja.png` and
+`figures/fig-07-ja.png`; review them before enabling `replace`. Do not mechanically repaint the originals.
 
 Use `technote-localise-screenshots` for mechanical screenshot text replacement. If the pinned `.agents` does not
 contain the skill, report the missing dependency and leave screenshots unchanged until it is published and the

@@ -4,7 +4,9 @@ Keep terminology consistent across `src/<target>.md` and `figures/*.<target>.txt
 Change an entry here first, then search and replace in both places.
 
 Style (ja): です・ます調. Half-width alphanumerics, no space between Japanese and Latin text (e.g. `4D.Vector型`).
-Full-width `（）` and `：` in prose. First occurrence of a technical term: 日本語（English）.
+Full-width `（）` and `：` in prose. Do not append redundant English glosses to borrowed words or
+established technical terms, even on first occurrence. Add a parenthetical only when it provides useful
+information, such as an acronym, file extension or example.
 
 ## 4D terms (from the official 4D Japanese documentation)
 
@@ -38,12 +40,12 @@ Full-width `（）` and `：` in prose. First occurrence of a technical term: �
 | English | 日本語 | Notes |
 |---|---|---|
 | multilingual support | 多言語対応 | |
-| localization | ローカライズ | 初出は「ローカライズ（localization）」。 |
-| user interface | ユーザーインターフェース | 初出で英語を併記。 |
+| localization | ローカライズ | 原語の英語を括弧で併記しない。 |
+| user interface | ユーザーインターフェース | 原語の英語を括弧で併記しない。 |
 | regional settings | 地域設定 | システムやアプリケーションの地域設定。 |
 | Use regional system settings | リージョンシステム設定を使う | 4D 20.8の日本語リソース`Internal Components/preferences.4dbase/Resources/ja.lproj/MotorJA.xlf`、グループ`Methods`、id `168`、resname `MethodsLanguageOption`で照合。元の図のビルド・フォントは未確認。 |
-| language certification matrix | 言語認証マトリクス | 認証済み言語の対応表。編集者確認対象。 |
-| compatibility matrix | 互換性マトリクス | |
+| language certification matrix | 言語対応表 | 編集者指定。[4D日本語サイトの表記](https://jp.4d.com/resources/4d-21-lts)に合わせる。 |
+| compatibility matrix | 動作環境 | 編集者指定。[4D日本語サイトの表記](https://jp.4d.com/resources/4d-21-lts)に合わせる。 |
 | resource / resource management | リソース / リソース管理 | `Resources`というフォルダー名は翻訳しない。 |
 | structure file | ストラクチャーファイル | `.4db`、`.4dc`は原文どおり。 |
 | data file | データファイル | |
@@ -69,7 +71,7 @@ Full-width `（）` and `：` in prose. First occurrence of a technical term: �
 | system variable | システム変数 | `OK`は翻訳しない。 |
 | blob | BLOB | |
 | field / table | フィールド / テーブル | |
-| Input Method Editor | 入力メソッドエディター | `IME`を併記。 |
+| Input Method Editor | 入力メソッドエディター | 必要に応じて略語`IME`を併記し、英語のフルスペルは重ねない。 |
 | text comparison | テキスト比較 | 正式なUIラベルとの照合はスクリーンショット確認時に行う。 |
 | Get Localized String / Get localized string | Get Localized String / Get localized string | 原文の表記を維持。`Get localized string`は20 R7より前のコマンド名。20 R7以降は`Localized string`。デモの互換性バージョン19 R8に合わせて旧名を維持する。本文のコードは変更しない。 |
 | SET DATABASE LOCALIZATION | SET DATABASE LOCALIZATION | コマンド名は翻訳しない。 |
