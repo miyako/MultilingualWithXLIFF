@@ -346,7 +346,7 @@
 					"width": 103,
 					"height": 63,
 					"pictureFormat": "scaled",
-					"picture": "fr.lproj/Flag.png"
+					"picture": "/RESOURCES/fr.lproj/Flag.png"
 				},
 				"Text30": {
 					"type": "text",
@@ -470,7 +470,7 @@
 			"View 9": {}
 		}
 	},
-	"geometryStamp": 566,
+	"geometryStamp": 567,
 	"$4d": {
 		"version": "1",
 		"kind": "form"
