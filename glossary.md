@@ -91,7 +91,7 @@ information, such as an acronym, file extension or example.
 | Apple / macOS / Mac / Windows | Apple / macOS / Mac / Windows | 製品・企業名は原綴り。 |
 | Unicode / XLIFF / XML / OASIS | Unicode / XLIFF / XML / OASIS | 規格名・団体名は原綴り。 |
 | Organization for the Advancement of Structured Information Standards | Organization for the Advancement of Structured Information Standards | OASISの正式名称は原綴り。 |
-| MeCab / Excel | MeCab / Excel | ライブラリ名・製品名は原綴り。 |
+| MeCab / Excel | MeCab / Excel | ライブラリ名・製品名は原綴り。MeCabの同梱・除外に関する原文の説明は4D v19 R5当時のもの。MeCabは20 R10、内蔵PHPインタープリターは20 R3で削除され、4D 21には含まれない。[公式リリースノート](https://developer.4d.com/docs/21/Notes/updates)を参照。本文では過去形と訳注で区別し、図12には編集者提供の現行画面を使用する。 |
 | English / French / Spanish / German | 英語 / フランス語 / スペイン語 / ドイツ語 | 言語コードとサンプル値は原文どおり。 |
 | Japanese / Chinese / Arabic | 日本語 / 中国語 / アラビア語 | サンプルデータは置き換えない。 |
 | Italian / Portuguese | イタリア語 / ポルトガル語 | |

@@ -1,0 +1,63 @@
+{
+  "capture_date": "2026-10-26",
+  "provenance": "Editor-supplied native macOS captures; no text repainting.",
+  "locale": "ja",
+  "application_build": null,
+  "os_version": null,
+  "resolved_fonts": null,
+  "review_status": "Integrated draft; awaiting editor PDF review.",
+  "pending_figures": ["07"],
+  "figures": {
+    "02": {
+      "replacement": "fig-02-ja.png",
+      "source": "スクリーンショット 2026-10-26 15.16.03.png",
+      "source_sha256": "49bd89ba8197261c180e201fd807edd61707acd57c28a50efe4d34a7d7bb0c9b",
+      "operation": "Byte-identical copy.",
+      "dimensions": [1720, 1484],
+      "replacement_sha256": "49bd89ba8197261c180e201fd807edd61707acd57c28a50efe4d34a7d7bb0c9b"
+    },
+    "03": {
+      "replacement": "fig-03-ja.png",
+      "sources": [
+        {
+          "source": "スクリーンショット 2026-10-26 15.16.38.png",
+          "source_sha256": "9a94710c907a8e2946247189588de29849424620d519a67c03cb2db0dd398d73",
+          "crop_ltrb": [480, 410, 1415, 640],
+          "paste_xy": [0, 0]
+        },
+        {
+          "source": "スクリーンショット 2026-10-26 15.16.46.png",
+          "source_sha256": "bbe69dbec28c6e5a950a401ffc8bea91ba66bd5924b637ba8064409b723d4acc",
+          "crop_ltrb": [0, 0, 412, 378],
+          "paste_xy": [261, 250]
+        }
+      ],
+      "operation": "Pillow RGBA canvas, opaque white background; paste both native crops without a mask or rescaling. Copy sRGB intent and DPI from the first source, omit EXIF/XMP. Both pasted regions retain their source RGBA pixels exactly.",
+      "privacy": "Exclude the account sidebar and unrelated application rows. The two panels are separate captures, not a reconstructed open-menu state.",
+      "dimensions": [935, 628],
+      "replacement_sha256": "67c74b7b0a6c3a8269949fb0ec570ce9c068836a6fe2036882f43e5f44bc3120"
+    },
+    "05": {
+      "replacement": "fig-05-ja.png",
+      "source": "スクリーンショット 2026-10-26 15.17.28.png",
+      "source_sha256": "6e2ff0f9512c1fad4406ecf4b8e01475baa717c7fbec803279e12ce80ec2bad4",
+      "operation": "Byte-identical copy; retain the editor's actual Resources view and file count.",
+      "dimensions": [1524, 1136],
+      "replacement_sha256": "6e2ff0f9512c1fad4406ecf4b8e01475baa717c7fbec803279e12ce80ec2bad4"
+    },
+    "12": {
+      "replacement": "fig-12-ja.png",
+      "source": "スクリーンショット 2026-10-26 15.17.57.png",
+      "source_sha256": "f860998e7378179fab9b133ff08b20bb2c9cfb6f773d10c91d8d4f7509108715",
+      "operation": "Byte-identical copy.",
+      "context": "Current macOS build dialog replaces the original historical Windows dialog. MeCab and the built-in PHP interpreter are absent; src/ja.md explains the version difference.",
+      "dimensions": [1680, 1324],
+      "replacement_sha256": "f860998e7378179fab9b133ff08b20bb2c9cfb6f773d10c91d8d4f7509108715"
+    }
+  },
+  "references": [
+    "https://blog.4d.com/reduce-your-4d-apps-size-with-these-new-features/",
+    "https://developer.4d.com/docs/21/Notes/updates#4d-20-r10",
+    "https://developer.4d.com/docs/21/Notes/updates#4d-20-r3"
+  ]
+}
