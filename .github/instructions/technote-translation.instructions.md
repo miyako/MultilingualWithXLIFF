@@ -165,14 +165,17 @@ Always check with `make review` (original above, localised below).
 ### Screenshots
 
 Editor-approved scope for this note: the editor supplies Japanese captures for figures **02, 03, 05, 07 and 12**.
-Figures 02, 03, 05 and 12 were supplied on 2026-10-26; figure 07 is still pending. Figure 12 intentionally shows
+All five were supplied on 2026-10-26. Figure 12 intentionally shows
 the current build dialog rather than the historical Windows dialog; the text distinguishes the v19 R5 module
 configuration from MeCab's removal in 20 R10 and the built-in PHP interpreter's removal in 20 R3.
 Keep every other image original, including the English/Spanish examples and the remaining Windows dialogs. Save incoming
 captures separately as `figures/fig-02-ja.png`, `figures/fig-03-ja.png`, `figures/fig-05-ja.png` and
 `figures/fig-07-ja.png` (and `figures/fig-12-ja.png`); review them before enabling `replace`. Figure 03 combines
 the relevant application settings crop and the separately supplied language-menu capture, excluding the account
-name and unrelated application rows. Record capture provenance in `figures/captures-ja.json`.
+name and unrelated application rows. Figure 07 combines the selected weekday column and the separate Property
+List capture at native scale, preserving `Text11` and `:xliff:day_1`. Record capture provenance in
+`figures/captures-ja.json`. Keep the editor's v20 build-dialog capture as `figures/fig-12-v20-reference-ja.png`
+for reference only; it does not replace the current figure 12. Its exact 20.x release/build is unknown.
 Do not mechanically repaint the originals.
 
 Use `technote-localise-screenshots` for mechanical screenshot text replacement. If the pinned `.agents` does not

@@ -6,7 +6,7 @@
   "os_version": null,
   "resolved_fonts": null,
   "review_status": "Integrated draft; awaiting editor PDF review.",
-  "pending_figures": ["07"],
+  "pending_figures": [],
   "figures": {
     "02": {
       "replacement": "fig-02-ja.png",
@@ -45,6 +45,27 @@
       "dimensions": [1524, 1136],
       "replacement_sha256": "6e2ff0f9512c1fad4406ecf4b8e01475baa717c7fbec803279e12ce80ec2bad4"
     },
+    "07": {
+      "replacement": "fig-07-ja.png",
+      "sources": [
+        {
+          "source": "スクリーンショット 2026-10-26 15.29.37.png",
+          "source_sha256": "0a90bad830f10d515f05de21f1e075826706d8f099c3f57eca360ce8d8bc640d",
+          "crop_ltrb": [430, 450, 720, 780],
+          "paste_xy": [0, 172]
+        },
+        {
+          "source": "スクリーンショット 2026-10-26 15.29.40.png",
+          "source_sha256": "31630a7a35708e0959d25af9c62a4229043aae5e7636f2503e06202f6f5c0a36",
+          "crop_ltrb": [0, 0, 974, 674],
+          "paste_xy": [314, 0]
+        }
+      ],
+      "operation": "Pillow RGBA canvas, opaque white background; paste both native crops without a mask or rescaling. Copy sRGB intent and DPI from the first source, omit EXIF/XMP. Both pasted regions retain their source RGBA pixels exactly.",
+      "context": "Selected Monday label and seven weekday names beside the separate Property List capture. Keep Text11, :xliff:day_1, default and all property values unchanged. Crop unrelated form areas so the XLIFF title remains readable at the existing PDF figure width.",
+      "dimensions": [1288, 674],
+      "replacement_sha256": "8b093a923b40d242acbfab5ed0c4e22fd385224bfbee00a092aee57af435c50e"
+    },
     "12": {
       "replacement": "fig-12-ja.png",
       "source": "スクリーンショット 2026-10-26 15.17.57.png",
@@ -55,6 +76,17 @@
       "replacement_sha256": "f860998e7378179fab9b133ff08b20bb2c9cfb6f773d10c91d8d4f7509108715"
     }
   },
+  "reference_captures": [
+    {
+      "file": "fig-12-v20-reference-ja.png",
+      "source": "スクリーンショット 2026-10-26 15.30.54.png",
+      "source_sha256": "d2ee155aeedb0e505b7d1a26914a24d23bd21685f1b6b02718788afd653d3a7e",
+      "operation": "Byte-identical copy; retained for reference only, not selected as a PDF replacement.",
+      "version": "4D v20, as identified by the editor; exact release/build unknown.",
+      "context": "The native module list includes MeCab and PHP. Retain as a historical comparison, without implying that every 20.x release has the same modules.",
+      "dimensions": [1680, 1316]
+    }
+  ],
   "references": [
     "https://blog.4d.com/reduce-your-4d-apps-size-with-these-new-features/",
     "https://developer.4d.com/docs/21/Notes/updates#4d-20-r10",
