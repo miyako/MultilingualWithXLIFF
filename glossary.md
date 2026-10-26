@@ -71,7 +71,7 @@ Full-width `（）` and `：` in prose. First occurrence of a technical term: �
 | field / table | フィールド / テーブル | |
 | Input Method Editor | 入力メソッドエディター | `IME`を併記。 |
 | text comparison | テキスト比較 | 正式なUIラベルとの照合はスクリーンショット確認時に行う。 |
-| Get Localized String / Get localized string | Get Localized String / Get localized string | 原文の表記を維持。実際の4Dコマンド名`Localized string`との相違は編集者確認対象。コードは変更しない。 |
+| Get Localized String / Get localized string | Get Localized String / Get localized string | 原文の表記を維持。`Get localized string`は20 R7より前のコマンド名。20 R7以降は`Localized string`。デモの互換性バージョン19 R8に合わせて旧名を維持する。本文のコードは変更しない。 |
 | SET DATABASE LOCALIZATION | SET DATABASE LOCALIZATION | コマンド名は翻訳しない。 |
 | Get database localization | Get database localization | コマンド名は翻訳しない。 |
 | ExcelArabic.txt / ExcelArabic1.txt | ExcelArabic.txt / ExcelArabic1.txt | 原文の本文とコードで名前が異なる。修正せず編集者確認対象とする。 |
@@ -96,3 +96,9 @@ Full-width `（）` and `：` in prose. First occurrence of a technical term: �
 | Monday / Tuesday / January | Monday / Tuesday / January | XLIFFのソース値として原綴りを維持。 |
 | Lunes / Martes / Enero | Lunes / Martes / Enero | スペイン語の翻訳例として原綴りを維持。 |
 | LangageSwitching | LangageSwitching | デモの既存プロジェクト名。綴りは修正しない。 |
+
+## Demo localisation notes
+
+- 画面見出しや操作ラベルは`Resources/ja.lproj/LangageSwitchingJA.xlf`を日本語スクリーンショットの照合元とする。数、曜日、旧暦の月名、アクション名など、既存の多言語サンプル値は変更しない。
+- デモの説明画面で逆になっていた`SET DATABASE LOCALIZATION`のコンポーネントへの適用範囲を修正した。`*`なしはデータベースとコンポーネント、`*`ありは呼び出し元のデータベースのみ。英語ソースも同時に修正した。参照：https://developer.4d.com/docs/commands/set-database-localization
+- 実際の`ExcelArabic1.txt`はUTF-16LE（BOM付き）。デモでは内容を変えずに`Resources/`に移し、UTF-16で読み込む。保存するBLOBは元のバイト列を維持し、画面表示用テキストだけ改行をCRに統一する。本文の原文由来のUTF-8コード例は変更していないため、デモとの差異は編集者確認対象。

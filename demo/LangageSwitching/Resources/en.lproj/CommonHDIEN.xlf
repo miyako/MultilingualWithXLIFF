@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="CommonHDI" source-language="en" target-language="en">
+    <body>
+      <trans-unit id="Btn_Demo" resname="Btn_Demo">
+        <source>Demonstration &gt;&gt;</source>
+        <target>Demonstration &gt;&gt;</target>
+      </trans-unit>
+      <trans-unit id="Title_Window" resname="Title_Window">
+        <source>How Do I...</source>
+        <target>How Do I...</target>
+      </trans-unit>
+      <trans-unit id="btn_GoToDesign" resname="btn_GoToDesign">
+        <source>Go To Design</source>
+        <target>Go To Design</target>
+      </trans-unit>
+      <trans-unit id="btn_Quit" resname="btn_Quit">
+        <source>Quit</source>
+        <target>Quit</target>
+      </trans-unit>
+      <trans-unit id="menu_clear" resname="menu_clear">
+        <source>Clear</source>
+        <target>Clear</target>
+      </trans-unit>
+      <trans-unit id="menu_copy" resname="menu_copy">
+        <source>Copy</source>
+        <target>Copy</target>
+      </trans-unit>
+      <trans-unit id="menu_cut" resname="menu_cut">
+        <source>Cut</source>
+        <target>Cut</target>
+      </trans-unit>
+      <trans-unit id="menu_demo" resname="menu_demo">
+        <source>Demo…</source>
+        <target>Demo…</target>
+      </trans-unit>
+      <trans-unit id="menu_edit" resname="menu_edit">
+        <source>Edit</source>
+        <target>Edit</target>
+      </trans-unit>
+      <trans-unit id="menu_file" resname="menu_file">
+        <source>File</source>
+        <target>File</target>
+      </trans-unit>
+      <trans-unit id="menu_paste" resname="menu_paste">
+        <source>Paste</source>
+        <target>Paste</target>
+      </trans-unit>
+      <trans-unit id="menu_quit" resname="menu_quit">
+        <source>Quit</source>
+        <target>Quit</target>
+      </trans-unit>
+      <trans-unit id="menu_selectAll" resname="menu_selectAll">
+        <source>Select all</source>
+        <target>Select all</target>
+      </trans-unit>
+      <trans-unit id="menu_showClipboard" resname="menu_showClipboard">
+        <source>Show clipboard</source>
+        <target>Show clipboard</target>
+      </trans-unit>
+      <trans-unit id="menu_undo" resname="menu_undo">
+        <source>Undo</source>
+        <target>Undo</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

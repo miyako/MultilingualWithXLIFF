@@ -28,7 +28,7 @@
 		"onTimer",
 		"onBoundVariableChange"
 	],
-	"windowTitle": "window title",
+	"windowTitle": ":xliff:Table1_WindowTitle",
 	"destination": "detailScreen",
 	"pages": [
 		{

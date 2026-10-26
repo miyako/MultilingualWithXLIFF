@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="CommonHDI" source-language="en" target-language="it">
+    <body>
+      <trans-unit id="Btn_Demo" resname="Btn_Demo">
+        <source>Demonstration &gt;&gt;</source>
+        <target state="needs-translation">Demonstration &gt;&gt;</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="Title_Window" resname="Title_Window">
+        <source>How Do I...</source>
+        <target state="needs-translation">How Do I...</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="btn_GoToDesign" resname="btn_GoToDesign">
+        <source>Go To Design</source>
+        <target state="needs-translation">Go To Design</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="btn_Quit" resname="btn_Quit">
+        <source>Quit</source>
+        <target state="needs-translation">Quit</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="menu_clear" resname="menu_clear">
+        <source>Clear</source>
+        <target state="needs-translation">Clear</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="menu_copy" resname="menu_copy">
+        <source>Copy</source>
+        <target state="needs-translation">Copy</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="menu_cut" resname="menu_cut">
+        <source>Cut</source>
+        <target state="needs-translation">Cut</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="menu_demo" resname="menu_demo">
+        <source>Demo…</source>
+        <target state="needs-translation">Demo…</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="menu_edit" resname="menu_edit">
+        <source>Edit</source>
+        <target state="needs-translation">Edit</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="menu_file" resname="menu_file">
+        <source>File</source>
+        <target state="needs-translation">File</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="menu_paste" resname="menu_paste">
+        <source>Paste</source>
+        <target state="needs-translation">Paste</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="menu_quit" resname="menu_quit">
+        <source>Quit</source>
+        <target state="needs-translation">Quit</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="menu_selectAll" resname="menu_selectAll">
+        <source>Select all</source>
+        <target state="needs-translation">Select all</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="menu_showClipboard" resname="menu_showClipboard">
+        <source>Show clipboard</source>
+        <target state="needs-translation">Show clipboard</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+      <trans-unit id="menu_undo" resname="menu_undo">
+        <source>Undo</source>
+        <target state="needs-translation">Undo</target>
+        <note>English fallback for untranslated interface text.</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

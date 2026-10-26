@@ -1,5 +1,6 @@
 {
 	"destination": "detailScreen",
+	"windowTitle": ":xliff:Demo_WindowTitle",
 	"windowSizingX": "fixed",
 	"windowSizingY": "fixed",
 	"width": 520,

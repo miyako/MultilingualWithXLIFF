@@ -1,28 +1,27 @@
 //%attributes = {}
-SET DATABASE LOCALIZATION:C1104("en-US")
+#DECLARE($params : Object)
 
-C_LONGINT:C283($1)
+var $title : Text
+var $window; $i; $left; $top; $right; $bottom : Integer
+SET DATABASE LOCALIZATION("ja"; *)
+$title:=Get localized string:C991("Demo_WindowTitle")
 
-Case of 
-	: (Count parameters:C259=0)
-		$pss:=New process:C317(Current method name:C684; 0; Current method name:C684; Red:K11:4)
-		
-	Else 
-		
-		//CreateCountries 
-		
-		$Ref:=Open form window:C675("HDI"; Plain form window:K39:10; Horizontally centered:K39:1; Vertically centered:K39:4)
-		DIALOG:C40("HDI")
-		CLOSE WINDOW:C154
-		
-		If (OK=1)
-			
-			$Ref:=Open form window:C675("HDI2"; Plain form window:K39:10; Horizontally centered:K39:1; Vertically centered:K39:4)
-			DIALOG:C40("HDI2")
-			CLOSE WINDOW:C154
-			
-		End if 
-		
-		
-End case 
+ARRAY LONGINT($windows; 0)
+WINDOW LIST($windows)
+For ($i; 1; Size of array($windows))
+	$window:=$windows{$i}
+	If (Window process($window)=1) && (Get window title($window)=$title)
+		GET WINDOW RECT($left; $top; $right; $bottom; $window)
+		CALL FORM($window; Formula(SET WINDOW RECT($left; $top; $right; $bottom; $window)))
+		return
+	End if
+End for
 
+If (Count parameters=0)
+	CALL WORKER(1; Current method name; New object("title"; $title))
+Else
+	SET MENU BAR(1)
+	$window:=Open form window("HDI"; Plain form window; Horizontally centered; Vertically centered)
+	SET WINDOW TITLE($title; $window)
+	DIALOG("HDI"; $params; *)
+End if

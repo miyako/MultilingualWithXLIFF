@@ -11,7 +11,8 @@ demo/*/Logs/
 demo/*/userPreferences.*/
 demo/*/Project/DerivedData/
 demo/*/Libraries/
-# Settings/ is tracked or not per project: ask the user (see the 4dproject skill)
+# This demo keeps machine-local settings out of version control.
+demo/LangageSwitching/Settings/
 
 # Tools provisioned by the skills in .agents (4dtools). Do NOT ignore the whole tools/ folder:
 # the localisation pipeline in tools/*.py is committed.
