@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+Translation file for 4D products.
+Copyright(C)2006 4D SA.
+This file is distributed under the same license as the 4D product package.
+-->
+
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file build-num="9.0" datatype="x-STR#" date="2006-04-20T12:13:41Z" original="4th Dimension" product-name="4th Dimension" product-version="v20" source-language="en-US" target-language="en-US">
+      <body>
+		<group id="1" resname="SQLaliases">	  
+			<trans-unit id="2" resname="How Do I...">
+				<target>How Do I...</target>
+			</trans-unit>	
+			<trans-unit id="3" resname="...switch language dynamically?">
+				<target>...switch language dynamically?</target>
+			</trans-unit>
+			<trans-unit id="4" resname="Demo">
+				<target>Demo</target>
+			</trans-unit>
+            <trans-unit id="5" resname="Open single dialog">
+               <target>Open single dialog</target>
+            </trans-unit>
+            <trans-unit id="6" resname="Open all in processes">
+               <target>Open all in processes</target>
+            </trans-unit>
+            <trans-unit id="7" resname="Reveal lang files">
+               <target>Reveal lang files</target>
+            </trans-unit>
+            <trans-unit id="8" resname="Selected langage is applied on newly opened dialogs">
+               <target>Selected langage is applied on newly opened dialogs</target>
+            </trans-unit>
+            <trans-unit id="9" resname="Change Language">
+               <target>Change Language</target>
+            </trans-unit>
+            <trans-unit id="10" resname="SET DATABASE LOCALIZATION(Language{;*})">
+               <target>SET DATABASE LOCALIZATION(Language{;*})</target>
+            </trans-unit>
+            <trans-unit id="11" resname="text::set database localization detail">
+               <target>SET DATABASE LOCALIZATION(Language)
+ -&gt; Database scope
+
+SET DATABASE LOCALIZATION(Language;*)
+ -&gt; Database and Components scope.
+</target>
+            </trans-unit>
+            <trans-unit id="12" resname="text::set database localization">
+               <target>The goal of this feature is to allow programmers to (re)define, on the flight, the current language of an application.
+ 
+In order to work properly, at least two distinct &quot;*.lproj&quot; folders should be present in the &quot;resources&quot; folder of the database.
+If so, any of them should be available and used by the application.</target>
+            </trans-unit>			
+            <trans-unit id="13" resname="Select language">
+               <target>Select language</target>
+            </trans-unit>
+            <trans-unit id="14" resname="All labels are automatically localized according to selected language">
+               <target>All labels are automatically localized according to selected language</target>
+            </trans-unit>
+            <trans-unit id="15" resname="Current language : ">
+               <target>Current language : </target>
+            </trans-unit>
+		</group>
+		
+         <group resname="Count">
+            <trans-unit id="count_01" resname="count_01">
+               <target>one</target>
+            </trans-unit>
+            <trans-unit id="count_02" resname="count_02">
+               <target>two</target>
+            </trans-unit>
+            <trans-unit id="count_03" resname="count_03">
+               <target>three</target>
+            </trans-unit>
+            <trans-unit id="count_04" resname="count_04">
+               <target>four</target>
+            </trans-unit>
+            <trans-unit id="count_05" resname="count_05">
+               <target>five</target>
+            </trans-unit>
+            <trans-unit id="count_06" resname="count_06">
+               <target>six</target>
+            </trans-unit>
+            <trans-unit id="count_07" resname="count_07">
+               <target>seven</target>
+            </trans-unit>
+             <trans-unit id="count_08" resname="count_08">
+               <target>eight</target>
+            </trans-unit>
+             <trans-unit id="count_09" resname="count_09">
+               <target>nine</target>
+            </trans-unit>
+             <trans-unit id="count_10" resname="count_10">
+               <target>ten</target>
+            </trans-unit>
+          </group>
+         
+        
+         <group resname="DayNames">
+            <trans-unit id="1" resname="day_1">
+               <target>Monday</target>
+            </trans-unit>
+            <trans-unit id="2" resname="day_2">
+               <target>Tuesday</target>
+            </trans-unit>
+            <trans-unit id="3" resname="day_3">
+               <target>Wednesday</target>
+            </trans-unit>
+            <trans-unit id="4" resname="day_4">
+               <target>Thursday</target>
+            </trans-unit>
+            <trans-unit id="5" resname="day_5">
+               <target>Friday</target>
+            </trans-unit>
+            <trans-unit id="6" resname="day_6">
+               <target>Saturday</target>
+            </trans-unit>
+            <trans-unit id="7" resname="day_7">
+               <target>Sunday</target>
+            </trans-unit>
+         </group>
+
+         <group resname="MonthNames">
+            <trans-unit id="month_1" resname="month_1">
+               <target>January</target>
+            </trans-unit>
+            <trans-unit id="month_2" resname="month_2">
+               <target>February</target>
+            </trans-unit>
+            <trans-unit id="month_3" resname="month_3">
+               <target>March</target>
+            </trans-unit>
+            <trans-unit id="month_4" resname="month_4">
+               <target>April</target>
+            </trans-unit>
+            <trans-unit id="month_5" resname="month_5">
+               <target>May</target>
+            </trans-unit>
+            <trans-unit id="month_6" resname="month_6">
+               <target>June</target>
+            </trans-unit>
+            <trans-unit id="month_7" resname="month_7">
+               <target>July</target>
+            </trans-unit>
+            <trans-unit id="month_8" resname="month_8">
+               <target>August</target>
+            </trans-unit>
+            <trans-unit id="month_9" resname="month_9">
+               <target>September</target>
+            </trans-unit>
+            <trans-unit id="month_10" resname="month_10">
+               <target>October</target>
+            </trans-unit>
+            <trans-unit id="month_11" resname="month_11">
+               <target>November</target>
+            </trans-unit>
+            <trans-unit id="month_12" resname="month_12">
+               <target>December</target>
+            </trans-unit>
+         </group>
+
+         <group resname="Action">
+            <trans-unit id="action_1" resname="action_1">
+               <target>Accept</target>
+            </trans-unit>
+            <trans-unit id="action_2" resname="action_2">
+               <target>Cancel</target>
+            </trans-unit>
+            <trans-unit id="action_3" resname="action_3">
+               <target>Print</target>
+            </trans-unit>
+          </group>
+
+         <group resname="infos">
+            <trans-unit id="info_1" resname="info_1">
+               <target>English</target>
+            </trans-unit>
+		</group>	  
+  </body>
+   </file>
+</xliff>

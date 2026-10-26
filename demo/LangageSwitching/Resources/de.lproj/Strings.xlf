@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN"
+"http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+
+<xliff version="1.0">
+   <file datatype="x-STR#" original="undefined" source-language="en-US" target-language="de" product-version="v20">
+      <header>
+         <note>The character &quot;%&quot; (out of a numerical context) is a meta-character that will be replaced (often by a numeric value) before the string is displayed</note>
+         <note>Text between less than (&lt;) and greater than (&gt;) symbols is a variable&apos;s name and must not be localised</note>
+         <note>\r, \t and \n are meta-characters.</note>
+      </header>
+      <body>
+
+         <group resname="Count">
+            <trans-unit id="count_01" resname="count_01">
+               <source>one</source>
+               <target>ein</target>
+            </trans-unit>
+            <trans-unit id="count_02" resname="count_02">
+               <source>two</source>
+               <target>zwei</target>
+            </trans-unit>
+            <trans-unit id="count_03" resname="count_03">
+               <source>three</source>
+               <target>drei</target>
+            </trans-unit>
+            <trans-unit id="count_04" resname="count_04">
+               <source>four</source>
+               <target>vier</target>
+            </trans-unit>
+            <trans-unit id="count_05" resname="count_05">
+               <source>five</source>
+               <target>fünf</target>
+            </trans-unit>
+            <trans-unit id="count_06" resname="count_06">
+               <source>six</source>
+               <target>sechs</target>
+            </trans-unit>
+            <trans-unit id="count_07" resname="count_07">
+               <source>seven</source>
+               <target>sieben</target>
+            </trans-unit>
+             <trans-unit id="count_08" resname="count_08">
+               <source>eight</source>
+               <target>acht</target>
+            </trans-unit>
+             <trans-unit id="count_09" resname="count_09">
+               <source>nine</source>
+               <target>neun</target>
+            </trans-unit>
+             <trans-unit id="count_10" resname="count_10">
+               <source>ten</source>
+               <target>zehn</target>
+            </trans-unit>
+          </group>
+         
+        
+         <group resname="DayNames">
+            <trans-unit id="1" resname="day_1">
+               <source>Monday</source>
+               <target>Montag</target>
+            </trans-unit>
+            <trans-unit id="2" resname="day_2">
+               <source>Tuesday</source>
+               <target>Dienstag</target>
+            </trans-unit>
+            <trans-unit id="3" resname="day_3">
+               <source>Wednesday</source>
+               <target>Mittwoch</target>
+            </trans-unit>
+            <trans-unit id="4" resname="day_4">
+               <source>Thursday</source>
+               <target>Donnerstag</target>
+            </trans-unit>
+            <trans-unit id="5" resname="day_5">
+               <source>Friday</source>
+               <target>Freitag</target>
+            </trans-unit>
+            <trans-unit id="6" resname="day_6">
+               <source>Saturday</source>
+               <target>Samstag</target>
+            </trans-unit>
+            <trans-unit id="7" resname="day_7">
+               <source>Sunday</source>
+               <target>Sonntag</target>
+            </trans-unit>
+         </group>
+
+         <group resname="MonthNames">
+            <trans-unit id="month_1" resname="month_1">
+               <source>January</source>
+               <target>Januar</target>
+            </trans-unit>
+            <trans-unit id="month_2" resname="month_2">
+               <source>February</source>
+               <target>Februar</target>
+            </trans-unit>
+            <trans-unit id="month_3" resname="month_3">
+               <source>March</source>
+               <target>März</target>
+            </trans-unit>
+            <trans-unit id="month_4" resname="month_4">
+               <source>April</source>
+               <target>Avril</target>
+            </trans-unit>
+            <trans-unit id="month_5" resname="month_5">
+               <source>May</source>
+               <target>Dürfen</target>
+            </trans-unit>
+            <trans-unit id="month_6" resname="month_6">
+               <source>June</source>
+               <target>Juni</target>
+            </trans-unit>
+            <trans-unit id="month_7" resname="month_7">
+               <source>July</source>
+               <target>Juli</target>
+            </trans-unit>
+            <trans-unit id="month_8" resname="month_8">
+               <source>August</source>
+               <target>August</target>
+            </trans-unit>
+            <trans-unit id="month_9" resname="month_9">
+               <source>September</source>
+               <target>September</target>
+            </trans-unit>
+            <trans-unit id="month_10" resname="month_10">
+               <source>October</source>
+               <target>Oktober</target>
+            </trans-unit>
+            <trans-unit id="month_11" resname="month_11">
+               <source>November</source>
+               <target>November</target>
+            </trans-unit>
+            <trans-unit id="month_12" resname="month_12">
+               <source>December</source>
+               <target>Dezember</target>
+            </trans-unit>
+         </group>
+
+         <group resname="Action">
+            <trans-unit id="action_1" resname="action_1">
+               <source>Accept</source>
+               <target>Nehmen Sie</target>
+            </trans-unit>
+            <trans-unit id="action_2" resname="action_2">
+               <source>Cancel</source>
+               <target>Abbrechen</target>
+            </trans-unit>
+            <trans-unit id="action_3" resname="action_3">
+               <source>Print</source>
+               <target>Drucken</target>
+            </trans-unit>
+          </group>
+
+         <group resname="infos">
+            <trans-unit id="info_1" resname="info_1">
+               <source>English</source>
+               <target>German</target>
+            </trans-unit>
+          </group>
+
+
+      </body>
+   </file>
+</xliff>

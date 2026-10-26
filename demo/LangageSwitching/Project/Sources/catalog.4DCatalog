@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="LangageSwitching" uuid="89D3E6F80FA9EA408A0E251A8569EC50" collation_locale="fr">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Countries" uuid="6E09F7CC68B30A458A646D9D5EB59CEE" id="1" prevent_journaling="true">
+		<field name="ShortName" uuid="B807ADDD9FDF5F4BAF00F8A1E769C872" type="10" limiting_length="255" never_null="true" id="1"/>
+		<field name="Name" uuid="D16A82D632F3F1459B395A52203FE591" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Capital" uuid="24FCD9D394A7AC42B27172D4AF9B7EAF" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="Language" uuid="D8AA7A20B1514F4FA0C7441B40BD1492" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="Anthem" uuid="0626F5AD9C133C48BFFBB8E5843BF6AC" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="Currency" uuid="046F2C0691D9B54C9F27AEA6720DF0C9" type="10" limiting_length="255" never_null="true" id="6"/>
+		<field name="TimeZone" uuid="66A73E439377484CBE9ADE309C87A829" type="10" limiting_length="255" never_null="true" id="7"/>
+		<field name="TLD" uuid="C9B83AFFF6888648B7D777B1A37D0458" type="10" limiting_length="255" never_null="true" id="8"/>
+		<field name="CallingCode" uuid="B59829D65772B148885820709CB2EC5E" type="10" limiting_length="255" never_null="true" id="9"/>
+		<field name="Area" uuid="350B7FA56340634BAD1FE6D1F0EFA13E" type="4" never_null="true" id="10"/>
+		<field name="AreaPosition" uuid="84BC1D6BC704E2439C76DB51E8B524A9" type="4" never_null="true" id="11"/>
+		<field name="Inhabitants" uuid="219CDB1F260D984DB82FC2045518DD3A" type="4" never_null="true" id="12"/>
+		<field name="InhabitantPosition" uuid="EFBBC3647901F841A494E70190FB5657" type="4" never_null="true" id="13"/>
+		<field name="Flag" uuid="60B336DEB1DC9146A72BACFA97F3FEEE" type="12" never_null="true" id="14"/>
+		<table_extra input_form="Input" output_form="Input">
+			<editor_table_info displayable_fields_count="15">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="42" top="13" width="203" height="367"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Table_1" uuid="494385D381D54C4C8D78190AF13351FF" id="2">
+		<field name="ID" uuid="3C0E49804E6D8E438802E639A3633129" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Champ_2" uuid="D2F8FEED5AE30E46B1749E5A6ECE7EF2" type="18" id="2"/>
+		<field name="Champ_3" uuid="A7D3EA96CC80E5478B7F7657D3F062E4" type="4" id="3"/>
+		<primary_key field_name="ID" field_uuid="3C0E49804E6D8E438802E639A3633129"/>
+		<table_extra input_form="Formulaire1" output_form="Formulaire2">
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="482" top="106" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="6165E99509029B45AF34977141A1DFB5" type="7">
+		<field_ref uuid="3C0E49804E6D8E438802E639A3633129" name="ID">
+			<table_ref uuid="494385D381D54C4C8D78190AF13351FF" name="Table_1"/>
+		</field_ref>
+	</index>
+	<base_extra data_file_path=":LangageSwitching.4DD" package_name="LangageSwitching" structure_file_name="LangageSwitching">
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>

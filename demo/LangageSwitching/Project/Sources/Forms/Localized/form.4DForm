@@ -1,0 +1,478 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Text": {
+					"type": "text",
+					"top": 112,
+					"left": 23,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:count_01"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 132,
+					"left": 23,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:count_02"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 152,
+					"left": 23,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:count_03"
+				},
+				"Text3": {
+					"type": "text",
+					"top": 172,
+					"left": 23,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:count_04"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 192,
+					"left": 23,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:count_05"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 212,
+					"left": 23,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:count_06"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 232,
+					"left": 23,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:count_07"
+				},
+				"Text7": {
+					"type": "text",
+					"top": 256,
+					"left": 23,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:count_08"
+				},
+				"Text8": {
+					"type": "text",
+					"top": 275,
+					"left": 23,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:count_09"
+				},
+				"Text9": {
+					"type": "text",
+					"top": 292,
+					"left": 23,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:count_10"
+				},
+				"Text10": {
+					"type": "text",
+					"top": 18,
+					"left": 27,
+					"width": 350,
+					"height": 43,
+					"class": "HDI",
+					"fontWeight": "bold",
+					"text": "All labels are automatically localized according to selected language"
+				},
+				"Text11": {
+					"type": "text",
+					"top": 112,
+					"left": 163,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:day_1"
+				},
+				"Text12": {
+					"type": "text",
+					"top": 132,
+					"left": 163,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:day_2"
+				},
+				"Text13": {
+					"type": "text",
+					"top": 152,
+					"left": 163,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:day_3"
+				},
+				"Text14": {
+					"type": "text",
+					"top": 172,
+					"left": 163,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:day_4"
+				},
+				"Text15": {
+					"type": "text",
+					"top": 192,
+					"left": 163,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:day_5"
+				},
+				"Text16": {
+					"type": "text",
+					"top": 212,
+					"left": 163,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:day_6"
+				},
+				"Text17": {
+					"type": "text",
+					"top": 232,
+					"left": 163,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:day_7"
+				},
+				"Text21": {
+					"type": "text",
+					"top": 112,
+					"left": 303,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:month_1"
+				},
+				"Text22": {
+					"type": "text",
+					"top": 132,
+					"left": 303,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:month_2"
+				},
+				"Text23": {
+					"type": "text",
+					"top": 152,
+					"left": 303,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:month_3"
+				},
+				"Text24": {
+					"type": "text",
+					"top": 172,
+					"left": 303,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:month_4"
+				},
+				"Text25": {
+					"type": "text",
+					"top": 192,
+					"left": 303,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:month_5"
+				},
+				"Text26": {
+					"type": "text",
+					"top": 212,
+					"left": 303,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:month_6"
+				},
+				"Text18": {
+					"type": "text",
+					"top": 112,
+					"left": 403,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:month_7"
+				},
+				"Text19": {
+					"type": "text",
+					"top": 132,
+					"left": 403,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:month_8"
+				},
+				"Text20": {
+					"type": "text",
+					"top": 152,
+					"left": 403,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:month_9"
+				},
+				"Text27": {
+					"type": "text",
+					"top": 172,
+					"left": 403,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:month_10"
+				},
+				"Text28": {
+					"type": "text",
+					"top": 192,
+					"left": 403,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:month_11"
+				},
+				"Text29": {
+					"type": "text",
+					"top": 212,
+					"left": 403,
+					"width": 116,
+					"height": 16,
+					"class": "default",
+					"text": ":xliff:month_12"
+				},
+				"Button": {
+					"type": "button",
+					"top": 267,
+					"left": 342,
+					"width": 120,
+					"height": 22,
+					"dataSource": "Button",
+					"action": "accept",
+					"text": ":xliff:action_1",
+					"class": "default",
+					"focusable": false,
+					"defaultButton": true,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button.4dm"
+				},
+				"Button1": {
+					"type": "button",
+					"top": 267,
+					"left": 174,
+					"width": 120,
+					"height": 22,
+					"dataSource": "Button",
+					"action": "cancel",
+					"text": ":xliff:action_2",
+					"class": "default",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button1.4dm"
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 18,
+					"left": 916,
+					"width": 103,
+					"height": 63,
+					"pictureFormat": "scaled",
+					"picture": "fr.lproj/Flag.png"
+				},
+				"Text30": {
+					"type": "text",
+					"top": 44,
+					"left": 725,
+					"width": 165,
+					"height": 22,
+					"class": "HDI",
+					"fontWeight": "bold",
+					"text": "Current language : "
+				},
+				"Text31": {
+					"type": "text",
+					"top": 84,
+					"left": 936,
+					"width": 76,
+					"height": 22,
+					"class": "HDI",
+					"fontWeight": "bold",
+					"text": ":xliff:info_1"
+				},
+				"Text32": {
+					"type": "text",
+					"text": "",
+					"top": 378,
+					"left": 505,
+					"width": 149,
+					"height": 30
+				},
+				"WebArea_url": {
+					"type": "webArea",
+					"left": 0,
+					"top": 386,
+					"width": 1074,
+					"height": 565,
+					"dataSource": "WebArea_url",
+					"events": [
+						"onLoad"
+					],
+					"urlSource": "WebArea_url",
+					"method": "ObjectMethods/WebArea_url.4dm"
+				},
+				"Text34": {
+					"type": "text",
+					"text": "URL",
+					"top": 130,
+					"left": 916,
+					"width": 115,
+					"height": 15,
+					"fontWeight": "bold",
+					"textDecoration": "underline"
+				},
+				"Bouton": {
+					"type": "button",
+					"text": "Import Arabic text",
+					"top": 216,
+					"left": 827,
+					"width": 142,
+					"height": 27,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Bouton.4dm",
+					"fontWeight": "bold",
+					"dataSource": "bt1"
+				},
+				"Zone de saisie": {
+					"type": "input",
+					"left": 706,
+					"top": 248,
+					"width": 358,
+					"height": 128,
+					"dataSource": "Var1",
+					"placeholder": "Imported Arabic text"
+				},
+				"Text33": {
+					"type": "text",
+					"top": 126,
+					"left": 725,
+					"width": 126,
+					"height": 22,
+					"class": "HDI",
+					"fontWeight": "bold",
+					"text": "Current URL : "
+				},
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 10,
+					"left": 706,
+					"width": 358,
+					"height": 165,
+					"fill": "transparent"
+				},
+				"Bouton1": {
+					"type": "button",
+					"text": "January in used language",
+					"top": 320,
+					"left": 229,
+					"width": 233,
+					"height": 37,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Bouton1.4dm"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	},
+	"geometryStamp": 566,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"method": "method.4dm"
+}
